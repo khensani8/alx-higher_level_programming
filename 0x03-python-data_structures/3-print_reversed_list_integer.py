@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-#3-print_reversed_list_intege
 
 def print_reversed_list_integer(my_list=[]):
     if isinstance(my_list, list):
