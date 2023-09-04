@@ -1,3 +1,7 @@
 #!/usr/bin/python3
+"""Defines a Rectangle class."""
+
+
 class Rectangle:
-    """ A shape with four sides with opposite sides being equal to each other"""
+    """ Represents a retangle"""
+    pass
