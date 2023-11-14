@@ -5,4 +5,5 @@ class Retangle {
     this.height = h;
     }
 }
+
 module.exports = Retangle;
