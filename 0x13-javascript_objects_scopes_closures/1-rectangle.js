@@ -1,6 +1,6 @@
 #!/usr/bin/node
 class Retangle {
-  constructor(w, h) {
+  constructor (w, h) {
     this.width = w;
     this.height = h;
     }
