@@ -7,6 +7,7 @@ from sqlalchemy.orm import Session
 
 Base = declarative_base()
 
+
 class State(Base):
     """Class definition of a State."""
     __tablename__ = 'states'
@@ -16,7 +17,9 @@ class State(Base):
 
 if __name__ == "__main__":
     # Connect to the MySQL server running on localhost at port 3306
-    engine = create_engine('mysql+mysqldb://username:password@localhost:3306/db_name', pool_pre_ping=True)
+    engine = create_engine('mysql+mysqldb://username:password@localhost:3306/db_name',
+                            pool_pre_ping=True)
+
 
     # Import the class definition before calling create_all
     from your_file_name import State
