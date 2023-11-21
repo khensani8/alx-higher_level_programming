@@ -16,6 +16,6 @@ if __name__ == "__main__":
     session = Session()
     for result in session.query(State).order_by(State.id):
         print(result.id, result.name, sep=": ")
-        for city_ins in result.cities: 
+        for city_ins in result.cities:
             print("    ", end="")
             print(city_ins.id, city_ins.name, sep=": ")
