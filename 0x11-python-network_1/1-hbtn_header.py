@@ -22,4 +22,3 @@ except urllib.error.HTTPError as e:
     print("Error code:", e.code)
 except urllib.error.URLError as e:
     print("Error:", e.reason)
-
