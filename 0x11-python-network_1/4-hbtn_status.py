@@ -10,5 +10,3 @@ response = requests.get(url)
 print("Body response:")
 print("\t- type: {}".format(type(response.text)))
 print("\t- content: {}".format(response.content.decode('utf-8')))
-print("\t- utf8 content: {}".format(response.text))
-
