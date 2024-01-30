@@ -1,4 +1,6 @@
-const request = require('request');
+#!/usr/bin/node
+
+const request = require('request')
 
 // Check if the correct number of arguments is provided
 if (process.argv.length !== 3) {
